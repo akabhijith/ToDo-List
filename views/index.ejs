@@ -1,0 +1,17 @@
+<%- include("partials/header.ejs") %>
+<body>
+    <h1><%= KindOfDay %></h1>
+    <ul>
+        <li>Buy FOOD</li>
+        <li>Cook FOOD</li>
+        <li>Eat FOOD</li>
+        <% for( i=0;i<newListItems.length;i++){  %>
+        <li><%= newListItems[i] %></li>
+       <% } %> 
+
+    </ul>
+     <form action="/" method="post">
+                <input type="text" name="newitem" autocomplete="off">
+                <button type="submit">Add</button>
+        </form>
+<%- include("partials/footer.ejs") %>
