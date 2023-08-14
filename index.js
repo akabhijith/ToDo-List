@@ -6,7 +6,7 @@ const port = 3000;
 // const ejs=require('ejs');
 
 // app.set('view engine','ejs')
-
+app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
 
 let newitems = []

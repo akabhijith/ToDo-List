@@ -5,7 +5,7 @@ body {
     color: hotpink;
 }
 
-main {
+/* main {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -16,13 +16,13 @@ main {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-}
+} */
 
 h1 {
     font-size: 3.5rem;
 }
 
-input {
+/* input {
     appearance: none;
     -webkit-appearance: none;
     border: 0;
@@ -31,7 +31,7 @@ input {
     padding: 1rem;
     color: white;
     cursor: pointer;
-}
+} */
 
 footer {
     position: absolute;
